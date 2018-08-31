@@ -10,12 +10,7 @@ class App extends Component{
 
     componentWillMount(){
         firebase.initializeApp({
-            apiKey: 'AIzaSyA3acTA8nTTDkzwohQZHFxJ4MLedFBSuJw',
-            authDomain: 'authentication-hamk.firebaseapp.com',
-            databaseURL: 'https://authentication-hamk.firebaseio.com',
-            projectId: 'authentication-hamk',
-            storageBucket: 'authentication-hamk.appspot.com',
-            messagingSenderId: '582645752547'
+            // ###KEYS GO HERE
         });
         firebase.auth().onAuthStateChanged( (user) => {
             if(user){
