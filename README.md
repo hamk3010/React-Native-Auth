@@ -1,2 +1,2 @@
 # React-Native-Auth
-React Native application that carries out user auth using Firebase
+Used Firebase configuration settings to initialize the project application. Created controlled components to handle text inputs in the login form, used state objects to save and pull values from the user's input. Used conditional rendering to render different objects depending on the response from firebase authentication methods. Provided realtime feedback to the user during different stages of the login attempt.   
